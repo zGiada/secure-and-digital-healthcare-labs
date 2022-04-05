@@ -42,7 +42,8 @@
 
 - → check result in wireshark (No. 578)
 
-WIRESHARK FILE: 
+**WIRESHARK FILE:** check here
+
 
 ## PROCEDURE >> HTTPS
 
@@ -63,7 +64,8 @@ WIRESHARK FILE:
   This was the resulting page: 
   ![](C:\Users\giada\Desktop\Senza nome.png)
 
-  And this was the URL: https://shibidp.cca.unipd.it/idp/profile/SAML2/Redirect/SSO?j_username=giada.zuccolo%40studenti.unipd.it&j_username_js=giada.zuccolo&dominio=%40studenti.unipd.it&j_password=*"plaintext password"* **<u>&_eventId_proceed=</u>**
+  And this was the URL: (in *plaintex_pwd* there was my password in plaintext)
+  ` https://shibidp.cca.unipd.it/idp/profile/SAML2/Redirect/SSOj_username=giada.zuccolo%40studenti.unipd.it&j_username_js=giada.zuccolo&dominio=%40studenti.unipd.it&j_password=plaintext_pwd&_eventId_proceed=`
 
 - Stop capture in Wireshark
 
