@@ -42,7 +42,7 @@
 
 - → check result in wireshark (No. 578)
 
-**WIRESHARK FILE:** check here
+**WIRESHARK FILE:** check https://github.com/zGiada/SDH-lab5/blob/main/get-post_http-form.pcapng
 
 
 ## PROCEDURE >> HTTPS
@@ -69,6 +69,9 @@
 
 - Stop capture in Wireshark
 
+**WIRESHARK FILE:** check https://github.com/zGiada/SDH-lab5/blob/main/https%20get-form.pcapng
+
+
 ### POST
 
 - Work again **uniweb** login
@@ -78,7 +81,10 @@
 - Submit the form
 - Stop capture in Wireshark
 
-### WIRESHARK: some comments
+**WIRESHARK FILE:** check https://github.com/zGiada/SDH-lab5/blob/main/https%20post-form.pcapng
 
-In HTTPS case, I have to filter with `ssl filter` to see some results.
-I also looked directly for the package with the additional filters that wireshark offers. For example set to search for the string `shibidp.cca.unipd.it` or the string `uniweb.unipd.it` in the package details.
+
+## WIRESHARK: some comments
+
+In the case of HTTP, it is possible to see the GET and POST calls in plain text, using the command `http.request.method=="GET"` and `http.request.method=="POST"`, and analyze the corrispondent packets.
+In HTTPS case, I have to filter with `ssl filter` to see some results. I also looked directly for the package with the additional filters that wireshark offers. For example set to search for the string `shibidp.cca.unipd.it` or the string `uniweb.unipd.it` in the package details.
