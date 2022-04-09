@@ -1,0 +1,28 @@
+:root {
+    --darkcolor: #031927;
+    --white_color: #f5f5f5;
+    --first_color: #6EB3DF;
+    --light_color: #c8e0f4;
+    --accordion_1: #d3dce2;
+    --accordion_2: #b5c2cade;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white_color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background-color: var(--first_color);
+    padding: 1%;
+    text-align: center;
+}
+
+.content{
+    width: 50%;
+    margin: 5% auto auto 25%;
+}
