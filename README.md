@@ -1,5 +1,7 @@
 # SDH - LAB 5 - Zuccolo Giada, matr. 2055702
 
+_____________________________________________
+
 ## PROCEDURE >> HTTP
 
 - On wireshark, start the capture
@@ -42,7 +44,10 @@
 
 - → check result in wireshark (No. 578)
 
-**WIRESHARK FILE:** check https://github.com/zGiada/SDH-lab5/blob/main/get-post_http-form.pcapng
+**WIRESHARK FILE:** check file `get-post_http-form.pcapng` 
+(visible here too: https://github.com/zGiada/SDH-lab5/blob/main/get-post_http-form.pcapng)
+
+_________________________________
 
 
 ## PROCEDURE >> HTTPS
@@ -69,7 +74,8 @@
 
 - Stop capture in Wireshark
 
-**WIRESHARK FILE:** check https://github.com/zGiada/SDH-lab5/blob/main/https%20get-form.pcapng
+**WIRESHARK FILE:** check file `https get-form.pcapng` 
+(visible here too: https://github.com/zGiada/SDH-lab5/blob/main/https%20get-form.pcapng)
 
 
 ### POST
@@ -81,8 +87,10 @@
 - Submit the form
 - Stop capture in Wireshark
 
-**WIRESHARK FILE:** check https://github.com/zGiada/SDH-lab5/blob/main/https%20post-form.pcapng
+**WIRESHARK FILE:** check file `https post-form.pcapng` 
+(visible here too: https://github.com/zGiada/SDH-lab5/blob/main/https%20post-form.pcapng)
 
+___________________________________
 
 ## WIRESHARK: some comments
 
