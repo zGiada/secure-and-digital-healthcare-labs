@@ -1,0 +1,86 @@
+:root{
+  --white-color: whitesmoke;
+  --first_color: #6EB3DF;
+  --light-color: #c8e0f4;
+}
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: var(--white-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    background-color: var(--first_color);
+    padding: 1%;
+    text-align: center;
+}
+
+.adding{
+    background-color: var(--light-color); 
+    padding: 20px;
+    float: left;
+    width: 40%;
+}
+.view_table{
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+input[type=text], input[type=email], input[type=password], select {
+  width: 100%;
+  padding: 2% 3%;
+  margin: 1% auto 2% auto;
+  display: inline-block;
+  border: 1px solid var(--white-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: var(--first_color);
+  color: var(--white-color);
+  padding: 2%;
+  font-weight: bold;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 1;
+  border-radius: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 2%;
+}
+
+tr:nth-child(even){
+  background-color: var(--light-color);
+}
+
+th {
+  background-color: var(--first_color);
+  color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+  .view_table, .adding {
+    width: 100%; 
+  }
+}
