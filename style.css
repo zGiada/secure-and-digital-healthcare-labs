@@ -24,5 +24,24 @@ body {
 
 .content{
     width: 50%;
-    margin: 5% auto auto 25%;
+    margin: 2% auto auto 25%;
+}
+h2{
+    text-align: center;
+}
+.login{
+    margin-top: 2.5%;
+    padding: 3% 10% 5% 10%;
+    border-radius: 10px;
+    background-color: var(--light_color);
+}
+
+.login input[type=text],.login input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
