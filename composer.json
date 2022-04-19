@@ -1,0 +1,15 @@
+{
+    "name": "phpsandbox/standard",
+    "description": "Official scaffold for Standard notebooks on PHPSandbox",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olatunbosun Egberinde",
+            "email": "bosunski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
