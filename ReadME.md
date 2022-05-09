@@ -1,5 +1,7 @@
-# Secure and Digital Healthcare LABS
+# LAB 9
 
-This is a repository with all the labs of the Secure Digital Healthcare course. 
+Create a RBAC system that restricts a page to specific actions per role using JWT (for example GET the resource for all authenticated users, and POST only for admins).
 
-Each branch is for one apposite lab, in a chronological order
+You can use PHPSandbox for backend, or any other service or technology, and any type of HTTP client technology.
+
+You can extend L7/L8 with authorization.
